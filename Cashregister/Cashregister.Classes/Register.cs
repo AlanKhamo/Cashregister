@@ -14,7 +14,7 @@
                }
                else
                {
-                    throw new ArgumentOutOfRangeException("item must not be negatove ");
+                    throw new ArgumentOutOfRangeException("item skal ikke være negativ ");
                }
                
           }
