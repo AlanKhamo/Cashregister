@@ -1,5 +1,6 @@
-namespace Calculator_new.Test.Unit
+using CalculatorClass;
 
+namespace TestProject1.Test.Unit
 {
      public class Tests
      {
@@ -12,7 +13,7 @@ namespace Calculator_new.Test.Unit
           [Test]
           public void add()
           {
-               Calculator_new uut = new Calculator_new();
+               Class1 uut = new Class1();
 
                Assert.That(uut.Add(2.5, 3.5), Is.EqualTo(6));
           }
@@ -20,7 +21,7 @@ namespace Calculator_new.Test.Unit
           [Test]
           public void subtract()
           {
-               Calculator_new uut = new Calculator_new();
+               Class1 uut = new Class1();
 
                Assert.That(uut.Subtract(10, 5), Is.EqualTo(5));
           }
@@ -29,7 +30,7 @@ namespace Calculator_new.Test.Unit
           [Test]
           public void multiply()
           {
-               Calculator_new uut = new Calculator_new();
+               Class1 uut = new Class1();
 
                Assert.That(uut.Multiply(10, 5), Is.EqualTo(50));
           }
@@ -37,7 +38,7 @@ namespace Calculator_new.Test.Unit
           [Test]
           public void power()
           {
-               Calculator_new uut = new Calculator_new();
+               Class1 uut = new Class1();
 
                Assert.That(uut.Power(10, 5), Is.EqualTo(100000));
           }

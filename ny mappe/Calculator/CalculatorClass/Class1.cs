@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Calculator_new
+﻿namespace CalculatorClass
 {
-     public class Calculator_new
+     public class Class1
      {
           public double Add(double a, double b)
           {
@@ -24,5 +18,6 @@ namespace Calculator_new
           {
                return Math.Pow(x, exp);
           }
+
      }
 }
