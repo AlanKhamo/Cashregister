@@ -42,5 +42,13 @@ namespace TestProject1.Test.Unit
 
                Assert.That(uut.Power(10, 5), Is.EqualTo(100000));
           }
+
+          [Test]
+          public void add2()
+          {
+               Class1 uut = new Class1();
+
+               Assert.That(uut.Add(3, 5), Is.EqualTo(8));
+          }
      }
 }
